@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -11233,12 +11233,12 @@ http://www.weartronics.com/</description>
 <net name="N$12" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="(T0)PD4"/>
-<wire x1="99.06" y1="71.12" x2="116.84" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="71.12" x2="116.84" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="71.12" x2="114.3" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="71.12" x2="114.3" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="D" pin="OE"/>
-<wire x1="116.84" y1="119.38" x2="101.6" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="119.38" x2="101.6" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="C" pin="OE"/>
-<wire x1="116.84" y1="119.38" x2="134.62" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="119.38" x2="134.62" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="119.38" x2="134.62" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="B" pin="OE"/>
 <wire x1="134.62" y1="121.92" x2="134.62" y2="139.7" width="0.1524" layer="91"/>
@@ -11246,7 +11246,7 @@ http://www.weartronics.com/</description>
 <wire x1="134.62" y1="139.7" x2="134.62" y2="157.48" width="0.1524" layer="91"/>
 <junction x="134.62" y="121.92"/>
 <junction x="134.62" y="139.7"/>
-<junction x="116.84" y="119.38"/>
+<junction x="114.3" y="119.38"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
