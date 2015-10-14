@@ -8,5 +8,5 @@ SMT version of [USBtinyISP](https://learn.adafruit.com/usbtinyisp) (https://lear
 TODO
 
 ## Datasheets
-[ATtiny2313](http://www.atmel.com/images/doc2543.pdf)
-[74AHC125](http://www.ti.com/lit/ds/symlink/sn74ahc125.pdf)
+* [ATtiny2313](http://www.atmel.com/images/doc2543.pdf)
+* [74AHC125](http://www.ti.com/lit/ds/symlink/sn74ahc125.pdf)
