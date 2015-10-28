@@ -11407,10 +11407,10 @@ http://www.weartronics.com/</description>
 <part name="D2" library="ipc-7351-diode" deviceset="DIODE_" device="SOD-123" value="3.6V"/>
 <part name="JP2" library="adafruit" deviceset="PINHD-1X6" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="JP1" library="adafruit" deviceset="PINHD-1X3" device=""/>
 <part name="R7" library="resistor" deviceset="R-US_" device="R0805" value="47K"/>
 <part name="R8" library="resistor" deviceset="R-US_" device="R0805" value="91K"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
+<part name="JP1" library="adafruit" deviceset="PINHD-1X3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11453,10 +11453,10 @@ http://www.weartronics.com/</description>
 <instance part="D2" gate="G$1" x="83.82" y="60.96" rot="R90"/>
 <instance part="JP2" gate="A" x="99.06" y="147.32" rot="R180"/>
 <instance part="GND6" gate="1" x="109.22" y="137.16"/>
-<instance part="JP1" gate="A" x="81.28" y="152.4" rot="R90"/>
 <instance part="R7" gate="G$1" x="71.12" y="157.48" rot="R90"/>
 <instance part="R8" gate="G$1" x="71.12" y="142.24" rot="R90"/>
 <instance part="GND5" gate="1" x="71.12" y="134.62"/>
+<instance part="JP1" gate="A" x="81.28" y="152.4" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -11533,13 +11533,13 @@ http://www.weartronics.com/</description>
 <wire x1="147.32" y1="109.22" x2="147.32" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="3"/>
 <pinref part="P+2" gate="VCC" pin="VCC"/>
 <wire x1="83.82" y1="149.86" x2="83.82" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="83.82" y1="162.56" x2="83.82" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="162.56" x2="83.82" y2="162.56" width="0.1524" layer="91"/>
 <junction x="83.82" y="162.56"/>
+<pinref part="JP1" gate="A" pin="3"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -11748,9 +11748,9 @@ http://www.weartronics.com/</description>
 <net name="N$13" class="0">
 <segment>
 <pinref part="JP2" gate="A" pin="2"/>
-<pinref part="JP1" gate="A" pin="2"/>
 <wire x1="101.6" y1="142.24" x2="81.28" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="142.24" x2="81.28" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -11758,10 +11758,10 @@ http://www.weartronics.com/</description>
 <pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="71.12" y1="147.32" x2="71.12" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="1"/>
 <wire x1="71.12" y1="149.86" x2="71.12" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="149.86" x2="71.12" y2="149.86" width="0.1524" layer="91"/>
 <junction x="71.12" y="149.86"/>
+<pinref part="JP1" gate="A" pin="1"/>
 </segment>
 </net>
 </nets>
