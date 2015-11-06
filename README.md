@@ -1,5 +1,5 @@
 # USBReallyTinyISP
-SMT version of [Adafruit's USBtinyISP](https://learn.adafruit.com/usbtinyisp)
+SMT version of [Adafruit's USBtinyISP](https://learn.adafruit.com/usbtinyisp) with a form factor inspired by [SparkFun's AVR Adapter](http://www.sparkfun.com/products/retired/8508).
 
 [![CC 4.0 Attribution-ShareAlike](https://licensebuttons.net/l/by-sa/3.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0) This work is licensed as  *Creative Common 4.0 Attribution-ShareAlike*
 ## Schematic
