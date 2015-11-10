@@ -11,3 +11,5 @@ SMT version of [Adafruit's USBtinyISP](https://learn.adafruit.com/usbtinyisp) wi
 ## Datasheets
 * [ATtiny2313](http://www.atmel.com/images/doc2543.pdf)
 * [74AHC125](http://www.ti.com/lit/ds/symlink/sn74ahc125.pdf)
+
+[Mouser project](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?ProjectGUID=dc6b4dca-204f-45ba-9732-e10048a6dd5b)
